@@ -14,3 +14,7 @@ random_state: 42
 
 vars_imputer: ['RendaMensal', 'NumeroDeDependentes']
 vars_discretize: ['TaxaDeUtilizacaoDeLinhasNaoGarantidas','TaxaDeEndividamento', 'RendaMensal']
+
+model_name: 'modelo.joblib'
+
+cross_evaluate_metric: 'roc_auc'
